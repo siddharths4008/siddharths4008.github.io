@@ -1,0 +1,28 @@
+{
+    "@context":  [
+                     "https://www.w3.org/ns/did/v1",
+                     "https://w3id.org/security/suites/jws-2020/v1"
+                 ],
+    "id":  "did:web:siddharths4008.github.io",
+    "verificationMethod":  [
+                               {
+                                   "id":  "did:web:siddharths4008.github.io#key-1",
+                                   "type":  "JsonWebKey2020",
+                                   "controller":  "did:web:siddharths4008.github.io",
+                                   "publicKeyJwk":  {
+                                                        "kty":  "EC",
+                                                        "crv":  "P-256",
+                                                        "x":  "H213NodUnS_ml2XUod31TeFgz-Y3hXfBEwXAvl7w-bU",
+                                                        "y":  "Tu1eXzNWJ4hI5fiRvK2VPBqn6BJtlgYYvfqDHZ9TBrk",
+                                                        "alg":  "ES256",
+                                                        "use":  "sig"
+                                                    }
+                               }
+                           ],
+    "authentication":  [
+                           "did:web:siddharths4008.github.io#key-1"
+                       ],
+    "assertionMethod":  [
+                            "did:web:siddharths4008.github.io#key-1"
+                        ]
+}
